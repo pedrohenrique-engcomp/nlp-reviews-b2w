@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.log
+.DS_Store
+
+# Bases de dados e artefatos nao versionados
+# O dataset B2W e publico (Kaggle) e deve ser baixado pelo usuario
+*.csv
+*.xlsx
+*.npy
+*.pkl
+*.pt
+*.bin
+
+# Checkpoints e modelo treinado
+b2w_bert_finetuned/
+modelo_b2w_sentimento/
